@@ -54,10 +54,7 @@
                             <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                         </ul>
                         <div class="search-box">
-                            <form class="search-form">
-                                <input type="search" placeholder="Search...">
-                                <button type="submit"><i class="far fa-search"></i></button>
-                            </form>
+                            <div id="google_translate_element"></div>
                         </div>
                     </div>
                     <div class="right-column">
@@ -83,6 +80,7 @@
         <div class="header-upper">
             <div class="auto-container">
                 <div class="inner-container">
+
                     <!--Logo-->
                     <div class="logo-box">
                         <div class="logo">
@@ -91,6 +89,7 @@
                             </a>
                         </div>
                     </div>
+
                     <div class="right-column">
                         <!--Nav Box-->
                         <div class="nav-outer">
@@ -113,22 +112,7 @@
                                 </div>
                             </nav>
                         </div>
-                        <div class="navbar-right-info">
-                            <div class="sign-in"><a href="#"><i class="flaticon-delivery-man"></i>Sign In</a></div>
-                            <div class="language">
-                                <span class="icon">
-                                    <img src="{{ asset('assets/images/resource/flags/de.png') }}" alt="">
-                                </span>
-                                <form action="#" class="language-switcher">
-                                    <select class="selectpicker">
-                                        <option value="1">Eng</option>
-                                        <option value="2">Fre</option>
-                                        <option value="3">Ita</option>
-                                        <option value="4">Spa</option>
-                                    </select>
-                                </form>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -156,22 +140,7 @@
                                 <nav class="main-menu navbar-expand-md navbar-light">
                                 </nav>
                             </div>
-                            <div class="navbar-right-info">
-                                <div class="sign-in"><a href="#"><i class="flaticon-delivery-man-1"></i>Sign In</a></div>
-                                <div class="language">
-                                    <span class="icon">
-                                        <img src="{{ asset('assets/images/resource/flags/de.png') }}" alt="">
-                                    </span>
-                                    <form action="#" class="language-switcher">
-                                        <select class="selectpicker">
-                                            <option value="1">Eng</option>
-                                            <option value="2">Fre</option>
-                                            <option value="3">Ita</option>
-                                            <option value="4">Spa</option>
-                                        </select>
-                                    </form>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -188,13 +157,13 @@
                     <a href="{{ url('/') }}">
                         <img src="{{ asset('assets/images/logo.png') }}" alt="" title=""></a>
                 </div>
-                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+                <div class="menu-outer">
+                    <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                </div>
                 <!--Social Links-->
                 <div class="social-links">
                     <ul class="clearfix">
                         <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                        <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
-                        <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
                         <li><a href="#"><span class="fab fa-instagram"></span></a></li>
                         <li><a href="#"><span class="fab fa-youtube"></span></a></li>
                     </ul>
@@ -233,13 +202,12 @@
                                             <div class="icon"><span class="flaticon-mail"></span></div>
                                             <div class="text">
                                                 <strong>Email</strong>
-                                                <a href="tel:(+61)32456789790">info@transida.com</a>
+                                                <a href="mailto:info@airmartlogistics.com">info@airmartlogistics.com</a>
                                             </div>
                                         </div>
                                         <ul class="social-icon">
                                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                                             <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                                         </ul>
                                     </div>
@@ -264,11 +232,10 @@
                                     <h4 class="widget_title">Useful Links</h4>
                                     <div class="widget-content">
                                         <ul class="list">
-                                            <li><a href="about.html">About Company</a></li>
-                                            <li><a href="contact.html">Get In Touch</a></li>
+                                            <li><a href="{{ url('about') }}">About Company</a></li>
+                                            <li><a href="{{ url('contact') }}">Get In Touch</a></li>
                                             <li><a href="#">Industries Served</a></li>
-                                            <li><a href="service.html">Our Services</a></li>
-                                            <li><a href="#">Pricing & Plans</a></li>
+                                            <li><a href="{{ url('services') }}">Our Services</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -376,6 +343,14 @@
 <script src="{{ asset('assets/js/parallax-scroll.js') }}"></script>
 
 <script src="{{ asset('assets/js/script.js') }}"></script>
+
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+    }
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 
 </body>

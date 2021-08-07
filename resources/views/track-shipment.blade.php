@@ -4,104 +4,63 @@
     Track Shipment
 @endsection
 
-@section('contents')
-    <div class="breadcrumb-area  margin-bottom-20" style="background-image:url({{ asset('assets/img/breadcrumb/01.png') }});">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb-inner">
-                        <h2 class="page-title">Track Shipment</h2>
-                        <ul class="page-list">
-                            <li><a href="{{ url('/') }}">Home</a></li>
-                            <li><a href="">Track Shipment</a></li>
-                        </ul>
+@section('content')
+    <section class="page-title" style="background-image: url({{ asset('assets/images/background/bg-20.jpg') }});">
+        <div class="background-text">
+            <div data-parallax="{&quot;x&quot;: 100}" style="transform:translate3d(56.831px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); -webkit-transform:translate3d(56.831px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); ">
+                <div class="text-1">transida</div>
+                <div class="text-2">transida</div>
+            </div>
+        </div>
+        <div class="auto-container">
+            <div class="content-box">
+                <div class="content-wrapper">
+                    <div class="title">
+                        <h1>Track Shipment</h1>
                     </div>
+                    <ul class="bread-crumb clearfix">
+                        <li><a href="{{ url('/') }}">Home</a></li>
+                        <li>Track Shipment</li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="header-bottom-area bg-image padding-65">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-12">
-                    <div class="left-content-area">
-                        <div class="shipping-area">
-                            <div class="section-title white">
+    <section class="getaquote-section style-four">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <div class="sub-title">Track your shipment with the shipment code</div>
+                <h2>Track Shipment</h2>
 
-                                @include('includes.alerts')
-
-                                <h4 class="title">Track your shipping</h4>
-                                <p>* Please key the track id to get your shipping location</p>
-                            </div>
-
-                            <form method="post" action="{{ url('track-shipment') }}" class="shipping-form margin-top-60">
-                                @csrf
-                                <div class="form-group">
-                                    <input type="text" name="tracking_id" class="form-control" placeholder="Enter track id" required>
-                                </div>
-                                <button type="submit" class="submit-btn">Track Now</button>
-                            </form>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 offset-lg-1 col-md-12">
-                    <div class="right-content-area">
-                        <div class="row">
-                            <div class="col-md-6 col-lg-12">
-                                <div class="single-header-bottom-item white">
-                                    <div class="icon">
-                                        <i class="flaticon-online-service"></i>
-                                    </div>
-                                    <div class="content">
-                                        <h4 class="title">24/7 support
-                                        </h4>
-                                        <p>Treacherously far condescending invidiously menially and constitutionally into capriciously. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-12">
-                                <div class="single-header-bottom-item white">
-                                    <div class="icon">
-                                        <i class="flaticon-map-4"></i>
-                                    </div>
-                                    <div class="content">
-                                        <h4 class="title">Global shipping
-                                        </h4>
-                                        <p>Treacherously far condescending invidiously menially and constitutionally into capriciously. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-12">
-                                <div class="single-header-bottom-item white">
-                                    <div class="icon">
-                                        <i class="flaticon-booking"></i>
-                                    </div>
-                                    <div class="content">
-                                        <h4 class="title">On time delivery
-                                        </h4>
-                                        <p>Treacherously far condescending invidiously menially and constitutionally into capriciously. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-12">
-                                <div class="single-header-bottom-item white">
-                                    <div class="icon">
-                                        <i class="flaticon-businessman"></i>
-                                    </div>
-                                    <div class="content">
-                                        <h4 class="title">Our Expert Team
-                                        </h4>
-                                        <p>Treacherously far condescending invidiously menially and constitutionally into capriciously. </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                @include('includes.alerts')
             </div>
+
+            <form class="getaquote-form" action="{{ url('track-shipment') }}" method="post">
+                @csrf
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-6 mb-2">
+                        <h4>Tracking Code</h4>
+                        <div class="form-row-box">
+                            <textarea name="tracking_id" placeholder="Tracking code"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="form-group text-center">
+                            <div class="row m-0 justify-content-center align-items-center">
+                                <button type="submit" class="theme-btn btn-style-one">
+                                    <span><i class="flaticon-up-arrow"></i>Track</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+
         </div>
-    </div>
+    </section>
 
 @endsection

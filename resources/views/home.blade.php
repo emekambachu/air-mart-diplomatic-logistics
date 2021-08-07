@@ -47,15 +47,16 @@ Home
                     </div>
                     <div class="icon-box">
                         <div class="icon"><span class="flaticon-calling"></span></div>
-                        <div class="text"><strong>Phone</strong><a href="tel:(+61)3245689790">(+61) 324 56 789 & 790</a></div>
+                        <div class="text"><strong>Phone</strong>
+                            <a href="tel:(+61)3245689790">(+61) 324 56 789 & 790</a></div>
                     </div>
                     <div class="icon-box">
                         <div class="icon"><span class="flaticon-mail"></span></div>
-                        <div class="text"><strong>Email</strong><a href="tel:(+61)32456789790">supportyou@transida.com</a></div>
+                        <div class="text"><strong>Email</strong>
+                            <a href="mailto:info@airmartlogistics.com">info@airmartlogistics.com</a>
+                        </div>
                     </div>
                 </div>
-                <!-- Link Btn -->
-                <div class="link-btn"><a href="#" class="theme-btn btn-style-one style-two"><span><i class="flaticon-up-arrow"></i>Purchase Our Theme </span></a></div>
             </div>
         </div>
     </section>
@@ -134,15 +135,18 @@ Home
                     <div class="content-outer">
                         <div class="content-box">
                             <div class="inner text-center">
-                                <h4>Competitve rates </h4>
-                                <h1>safety & reliable on-time</h1>
+                                <h2>Air Mart Diplomatic</h2>
+                                <h4>Cargo and Logistics</h4>
                                 <div class="text">We denounce with righteous indignation & dislike beguiled</div>
                                 <div class="link-box">
-                                    <a href="#" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>More Details </span></a>
+                                    <a href="{{ url('about') }}" class="theme-btn btn-style-one">
+                                        <span><i class="flaticon-up-arrow"></i>More Details </span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
 
                 <!-- Slide Item -->
@@ -154,7 +158,9 @@ Home
                                 <h1>make easy distribution</h1>
                                 <div class="text">To take a trivial example which of us ever undertakes laborious.</div>
                                 <div class="link-box">
-                                    <a href="#" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>More Details </span></a>
+                                    <a href="{{ url('about') }}" class="theme-btn btn-style-one">
+                                        <span><i class="flaticon-up-arrow"></i>More Details </span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -170,7 +176,9 @@ Home
                                 <h1>Shipments delivered on time</h1>
                                 <div class="text">Right to find fault with a man who chooses to enjoy a pleasure.</div>
                                 <div class="link-box">
-                                    <a href="#" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>More Details </span></a>
+                                    <a href="{{ url('about') }}" class="theme-btn btn-style-one">
+                                        <span><i class="flaticon-up-arrow"></i>More Details </span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -197,9 +205,8 @@ Home
                 <div class="col-lg-4 service-block-one">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <h4>Air Freight</h4>
-                        <div class="text">How all this mistaken idea of denouncing <br>pleasure and praising ...</div>
-                        <div class="read-more-btn">
-                            <a href="" class="link"><i class="flaticon-up-arrow"></i>Read More</a>
+                        <div class="text">
+                            <p>Future Logistic Transnational Company partners with airlines and freight forwarders to offer seamless air freight solutions to clients globally. We offer a competitive and quick service which includes our air express, high priority (24 hours) delivery.</p>
                         </div>
                         <div class="count"><span>01</span></div>
                         <div class="image" data-parallax='{"y": 30}'>
@@ -209,9 +216,9 @@ Home
                 <div class="col-lg-4 service-block-one">
                     <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
                         <h4>Ocean Freight</h4>
-                        <div class="text">To take a trivial example which of us ever undertakes laborious physical ...</div>
-                        <div class="read-more-btn">
-                            <a href="" class="link"><i class="flaticon-up-arrow"></i>Read More</a></div>
+                        <div class="text">
+                            <p>Wherever your cargo is going, we can arrange the shipment for you and remain competitive with the market.</p>
+                        </div>
                         <div class="count"><span>02</span></div>
                         <div class="image" data-parallax='{"y": 30}'>
                             <img src="{{ asset('assets/images/resource/image-2.png') }}" alt=""></div>
@@ -220,9 +227,9 @@ Home
                 <div class="col-lg-4 service-block-one">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <h4>Road Freight</h4>
-                        <div class="text">Right to find fault with man who chooses to enjoy a pleasure that annoying ...</div>
-                        <div class="read-more-btn"><a href="" class="link">
-                                <i class="flaticon-up-arrow"></i>Read More</a></div>
+                        <div class="text">
+                            <p>We work close with strategic partners to ensure our domestic trucking offers clients everything they need. We utilize track and trace capabilities to keep customers informed on their shipments at all times.</p>
+                        </div>
                         <div class="count"><span>03</span></div>
                         <div class="image" data-parallax='{"y": 30}'>
                             <img src="{{ asset('assets/images/resource/image-3.png') }}" alt=""></div>
@@ -239,9 +246,12 @@ Home
                 <div class="col-lg-6">
                     <div class="sec-title">
                         <div class="sub-title">Company</div>
-                        <h2>Provide a <br> Reliable Services <br> Since 1942</h2>
-                        <div class="text">Denounce with righteous indignation and dislike men who are  beguiled <br> and demoralized by the charms of pleasure of the moment so blinded by <br> desire, that they cannot foresee the pain and trouble.</div>
-                        <a href="#" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
+                        <h2>About<br> Us</h2>
+                        <div class="text">
+                            Air Mart Diplomatic Cargo and Logistics is the logistics and transportation hub of the Southeast and your direct access to the world. With an extensive line-up of distribution and warehousing facilities, world-class supply chain infrastructure, and the nation’s fastest-growing port, Future Logistic Transnational Company is ready to move your product efficiently and seamlessly.
+                        </div>
+                        <a href="{{ url('about') }}" class="readmore-link">
+                            <i class="flaticon-up-arrow"></i>More Details</a>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
@@ -292,45 +302,58 @@ Home
         <div class="auto-container">
             <div class="sec-title text-center">
                 <div class="sub-title text-center">Why Choose Us</div>
-                <h2>We Aim to Contribute Well to <br>  Your Company</h2>
+                <h2>We Aim to Contribute Well to <br> Your Company</h2>
             </div>
             <div class="row">
+
                 <div class="col-lg-6 col-md-6 why-choose-block">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="icon"><span class="count">01</span><i class="flaticon-shield"></i></div>
                         <div class="content">
-                            <h4>Trasparent Pricing</h4>
-                            <div class="text">Indignation and dislike men who are so beguiled all <br> moralized by the charms.</div>
+                            <h4>Connected</h4>
+                            <div class="text">
+                                Future Logistic Transnational Company Port offers the fastest customs clearance of any country in the GCC.
+                            </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-6 col-md-6 why-choose-block">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="icon"><span class="count">02</span><i class="flaticon-delivery"></i></div>
                         <div class="content">
                             <h4>On - Time Delivery</h4>
-                            <div class="text">Foresee the pain and trouble that are bound ensue <br> and equal blame belongs to fail duty.</div>
+                            <div class="text">
+                                Treacherously far condescending invidiously menially and constitutionally into capriciously.
+                            </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-6 col-md-6 why-choose-block">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="icon"><span class="count">03</span><i class="flaticon-24-hours"></i></div>
                         <div class="content">
                             <h4>Real Time Tracking</h4>
-                            <div class="text">These cases are perfectly simple easy distinguish <br> in a free hour of choice when our power.</div>
+                            <div class="text">
+                                Air Mart Diplomatic Cargo and Logistics Port is the most efficient port in the region, with a sub-3 hour turnaround.
+                            </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-6 col-md-6 why-choose-block">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="icon"><span class="count">04</span><i class="flaticon-24-hours"></i></div>
                         <div class="content">
                             <h4>24/7 Online Support</h4>
-                            <div class="text">Indignation and dislike men who are so beguiled all <br> moralized by the charms.</div>
+                            <div class="text">
+                                The shortest transit time between seaport, airport and industrial zones in the Gulf.
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -349,8 +372,6 @@ Home
                         <div class="count">01</div>
                         <div class="icon"><span class="flaticon-shipping"></span></div>
                         <h4>Replenishment <br> & Picking</h4>
-                        <div class="text">Dolores quas molestias <br>  excepturi occaecati cupiditated <br> non provident.</div>
-                        <a href="#" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 work-process-block">
@@ -358,37 +379,28 @@ Home
                         <div class="count">02</div>
                         <div class="icon"><span class="flaticon-warehouse"></span></div>
                         <h4>Warehousing <br> Operation</h4>
-                        <div class="text">It will frequently occur
-                            that pleasures have to repudiated
-                            annoyances accepted.</div>
-                        <a href="#" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
                     </div>
                 </div>
+
                 <div class="col-lg-3 col-md-6 work-process-block">
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <div class="count">03</div>
                         <div class="icon"><span class="flaticon-packing-list"></span></div>
                         <h4>Packaging <br> & Distribution</h4>
-                        <div class="text">Ever undertakes laborious
-                            physical exercise excepts obtain
-                            some advantage right.</div>
-                        <a href="#" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
                     </div>
                 </div>
+
                 <div class="col-lg-3 col-md-6 work-process-block">
                     <div class="inner-box wow fadeInDown" data-wow-duration="1500ms">
                         <div class="count">04</div>
                         <div class="icon"><span class="flaticon-delivery-1"></span></div>
                         <h4>Transportation <br> Process</h4>
-                        <div class="text">Nothing prevents our
-                            being able to do what like work
-                            best every pleasure </div>
-                        <a href="#" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
                     </div>
                 </div>
+
             </div>
             <div class="bottom-text">
-                Simplifying Your Freight & Logistics Needs With a Personal Approach.<a href=""> Get In Touch</a>
+                Simplifying Your Freight & Logistics Needs With a Personal Approach.<a href="{{ url('services') }}"> Services</a>
             </div>
         </div>
     </section>
@@ -405,11 +417,9 @@ Home
                             </div>
                             <div class="content">
                                 <div class="icon"><span class="flaticon-spaceship"></span></div>
-                                <h4>Industrial and <br> Aerospace</h4>
-                                <div class="text">The wise man therefore always holds in <br> these matters to this principle. </div>
-                                <div class="link">
-                                    <a href="#" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
-                                </div>
+                                <h4>Warehouse</h4>
+                                <div class="text">
+                                    EFulfillment is on the rise more than ever. While many warehouses can do it, not many can do it right! We specialize in e-commerce work and have highly trained experience teams.</div>
                             </div>
                         </div>
                     </div>
@@ -420,10 +430,6 @@ Home
                             <div class="content">
                                 <div class="icon"><span class="flaticon-spaceship"></span></div>
                                 <h4>Construction <br> Companies</h4>
-                                <div class="text">The wise man therefore always holds in <br> these matters to this principle. </div>
-                                <div class="link">
-                                    <a href="#" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -435,10 +441,6 @@ Home
                             <div class="content">
                                 <div class="icon"><span class="flaticon-box-1"></span></div>
                                 <h4>Vehicle <br> Manufacturing</h4>
-                                <div class="text">The wise man therefore always holds in <br> these matters to this principle. </div>
-                                <div class="link">
-                                    <a href="#" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -467,9 +469,6 @@ Home
                             <li>100% Insurance</li>
                             <li>50 Freight Shipments</li>
                         </ul>
-                        <div class="link-box">
-                            <a href="#" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>Buy Now </span></a>
-                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pricing-block style-two">
@@ -485,9 +484,6 @@ Home
                             <li>100% Insurance</li>
                             <li>50 Freight Shipments</li>
                         </ul>
-                        <div class="link-box">
-                            <a href="#" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>Buy Now </span></a>
-                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pricing-block">
@@ -502,10 +498,6 @@ Home
                             <li>100% Insurance</li>
                             <li>50 Freight Shipments</li>
                         </ul>
-                        <div class="link-box">
-                            <a href="#" class="theme-btn btn-style-one">
-                                <span><i class="flaticon-up-arrow"></i>Buy Now </span></a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -602,88 +594,6 @@ Home
         </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section class="testimonials-section">
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <div class="sub-title text-center">Testimonials</div>
-                <h2>1000+ Happy Customers Said</h2>
-            </div>
-            <div class="theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 30, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 1000, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "1" }, "768" :{ "items" : "2" } , "992":{ "items" : "2" }, "1200":{ "items" : "3" }}}'>
-                <div class="testimonial-block">
-                    <div class="inner-box">
-                        <div class="text">I am highly impressed with
-                            the professionalism and passion
-                            of people in this warehouse
-                            very neat & clean.
-                        </div>
-                        <div class="author-thumb">
-                            <img src="{{ asset('assets/images/resource/author-1.jpg') }}" alt="">
-                            <div class="quote"><span class="flaticon-right-quote"></span>
-                            </div>
-                        </div>
-                        <h4>Nathan Felix</h4>
-                        <div class="designation">CEO, High Rise Construction</div>
-                        <div class="rating">
-                            <span class="flaticon-star-1"></span>
-                            <span class="flaticon-star-1"></span>
-                            <span class="flaticon-star-1"></span>
-                            <span class="flaticon-star-1"></span>
-                            <span class="flaticon-star-1"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-block">
-                    <div class="inner-box">
-                        <div class="text">The staff is amazing!
-                            Very helpful and considerate
-                            with a sense of urgency &Loads
-                            are 99% on time.
-                        </div>
-                        <div class="author-thumb">
-                            <img src="{{ asset('assets/images/resource/author-2.jpg') }}" alt="">
-                            <div class="quote"><span class="flaticon-right-quote"></span>
-                            </div>
-                        </div>
-                        <h4>Lillian Grace</h4>
-                        <div class="designation">VP, Green Valley Intenationl</div>
-                        <div class="rating">
-                            <span class="flaticon-star-1"></span>
-                            <span class="flaticon-star-1"></span>
-                            <span class="flaticon-star-1"></span>
-                            <span class="flaticon-star-1"></span>
-                            <span class="flaticon-star-1"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-block">
-                    <div class="inner-box">
-                        <div class="text">I only use Transida Logistics
-                            for my shipping needs. My clients
-                            have all come to expect the
-                            excellent shipping.
-                        </div>
-                        <div class="author-thumb">
-                            <img src="{{ asset('assets/images/resource/author-3.jpg') }}" alt="">
-                            <div class="quote"><span class="flaticon-right-quote"></span>
-                            </div>
-                        </div>
-                        <h4>Roman Dexter</h4>
-                        <div class="designation">Business Man, Newyork, USA</div>
-                        <div class="rating">
-                            <span class="flaticon-star-1"></span>
-                            <span class="flaticon-star-1"></span>
-                            <span class="flaticon-star-1"></span>
-                            <span class="flaticon-star-1"></span>
-                            <span class="flaticon-star-1"></span>
-                        </div>
-                    </div>
-                </div>
-                <!-- End -->
-            </div>
-        </div>
-    </section>
-
     <!-- News Section -->
     <section class="news-section">
         <div class="auto-container">
@@ -697,98 +607,9 @@ Home
                 </div>
             </div>
             <div class="row">
-                <div class="news-block-one col-lg-4">
-                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
-                        <div class="image">
-                            <a href=""><img src="{{ asset('assets/images/resource/news-1.jpg') }}" alt=""></a>
-                            <div class="date">25 <br> Jun</div>
-                        </div>
-                        <div class="lower-content">
-                            <div class="category"><i class="fas fa-folder"></i> Freight Management</div>
-                            <h3><a href="">Trends in Freight Transportation <br>  & the COVID-19 Impact</a></h3>
-                            <div class="text">Enjoy pleasures that has annoying consequences <br>  or one who avoids a pain ...</div>
-                            <div class="link">
-                                <a href="" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
-                            </div>
-                        </div>
-                        <div class="overlay">
-                            <div class="image">
-                                <a href="">
-                                    <img src="{{ asset('assets/images/resource/news-1-2.jpg') }}" alt=""></a>
-                                <div class="date">25 <br> Jun</div>
-                            </div>
-                            <div class="lower-content">
-                                <div class="category"><i class="fas fa-folder"></i> Freight Management</div>
-                                <h3><a href="">Trends in Freight Transportation <br>  & the COVID-19 Impact</a></h3>
-                                <div class="link">
-                                    <a href="" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="news-block-one col-lg-4">
-                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
-                        <div class="image">
-                            <a href=""><img src="{{ asset('assets/images/resource/news-2.jpg') }}" alt=""></a>
-                            <div class="date">14 <br> May</div>
-                        </div>
-                        <div class="lower-content">
-                            <div class="category"><i class="fas fa-folder"></i> Industry News</div>
-                            <h3><a href="">Named a Finalist For Year 2019 <br> Best Choice Award</a></h3>
-                            <div class="text">Enjoy pleasures that has annoying consequences <br>  or one who avoids a pain ...</div>
-                            <div class="link">
-                                <a href="" class="readmore-link"><i class="flaticon-up-arrow"></i>More Details</a>
-                            </div>
-                        </div>
-                        <div class="overlay">
-                            <div class="image">
-                                <a href=""><img src="{{ asset('assets/images/resource/news-2-2.jpg') }}" alt=""></a>
-                                <div class="date">14 <br> May</div>
-                            </div>
-                            <div class="lower-content">
-                                <div class="category"><i class="fas fa-folder"></i> Industry News</div>
-                                <h3><a href="">Named a Finalist For Year 2019 <br> Best Choice Award</a></h3>
-                                <div class="link">
-                                    <a href="" class="readmore-link">
-                                        <i class="flaticon-up-arrow"></i>More Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="news-block-one col-lg-4">
-                    <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
-                        <div class="image">
-                            <a href=""><img src="{{ asset('assets/images/resource/news-3.jpg') }}" alt=""></a>
-                            <div class="date">05 <br> May</div>
-                        </div>
-                        <div class="lower-content">
-                            <div class="category"><i class="fas fa-folder"></i> Warehousing</div>
-                            <h3><a href="">Conditions for Applying C / O for <br> Transited Goods</a></h3>
-                            <div class="text">Enjoy pleasures that has annoying consequences <br>  or one who avoids a pain ...</div>
-                            <div class="link">
-                                <a href="blog-details.html" class="readmore-link">
-                                    <i class="flaticon-up-arrow"></i>More Details</a>
-                            </div>
-                        </div>
-                        <div class="overlay">
-                            <div class="image">
-                                <a href="">
-                                    <img src="{{ asset('assets/images/resource/news-3-2.jpg') }}" alt=""></a>
-                                <div class="date">05 <br> May</div>
-                            </div>
-                            <div class="lower-content">
-                                <div class="category"><i class="fas fa-folder"></i> Warehousing</div>
-                                <h3><a href="">Conditions for Applying C / O for <br> Transited Goods</a></h3>
-                                <div class="link">
-                                    <a href="" class="readmore-link">
-                                        <i class="flaticon-up-arrow"></i>More Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!-- 24-7 Press Release Newswire Landing Page Widget Code Starts Here -->
+                <script type="text/javascript" src="https://news.24-7pressrelease.com/247pr-news-widget.js?widgettitle=&amp;categories=181,243,279,&amp;showRelease=1&amp;width=auto&amp;headlinebold=1&amp;headlinesonly=0&amp;headlinecolor=2d57a1&amp;briefcolor=666666&amp;textcolor=333333&amp;typeface=arial&amp;fontsize=11&amp;width=auto&amp;headlinesepstyle=dotted&amp;showimages=1&amp;numstories=5&amp;bgcolor=ffffff&amp;urldest=247pr">
+                </script> <!-- 24-7 Press Release News wire Landing Page Widget Code Ends Here -->
             </div>
         </div>
     </section>

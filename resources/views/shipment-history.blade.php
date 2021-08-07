@@ -15,30 +15,35 @@
     </style>
 @endsection
 
-@section('contents')
-    <div class="breadcrumb-area  margin-bottom-20" style="background-image:url({{ asset('assets/img/breadcrumb/01.png') }});">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb-inner">
-                        <h2 class="page-title">Shipment History</h2>
-                        <ul class="page-list">
-                            <li><a href="{{ url('/') }}">Home</a></li>
-                            <li><a href="{{ url('track-shipment') }}">Track Shipment</a></li>
-                            <li><a>Shipment History</a></li>
-                        </ul>
+@section('content')
+    <section class="page-title" style="background-image: url({{ asset('assets/images/background/bg-20.jpg') }});">
+        <div class="background-text">
+            <div data-parallax="{&quot;x&quot;: 100}" style="transform:translate3d(56.831px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); -webkit-transform:translate3d(56.831px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); ">
+                <div class="text-1">transida</div>
+                <div class="text-2">transida</div>
+            </div>
+        </div>
+        <div class="auto-container">
+            <div class="content-box">
+                <div class="content-wrapper">
+                    <div class="title">
+                        <h1>Shipment History</h1>
                     </div>
+                    <ul class="bread-crumb clearfix">
+                        <li><a href="{{ url('/') }}">Home</a></li>
+                        <li>Shipment History</li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <div class="col-sm-12 col-md-12 col-lg-12" style="padding-bottom: 50px;">
 
         <div class="row shipment-header">
             <div class="col-md-12"><h3 class="text-white text-center">Shipment Details</h3></div>
             <div class="col-md-4">
-                <p class="text-white"><strong>Tracking ID:</strong> {{ $shipment->tracking_id }}</p>
+                <p class=""><strong>Tracking ID:</strong> {{ $shipment->tracking_id }}</p>
                 <p class="text-white"><strong>Carrier Reference No.:</strong> {{ $shipment->carrier_ref }}</p>
                 <p class="text-white"><strong>Origin:</strong> {{ $shipment->userDetail->sender_country }}</p>
                 <p class="text-white"><strong>Destination:</strong> {{ $shipment->userDetail->receiver_country }}</p>
