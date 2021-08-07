@@ -40,10 +40,10 @@
 
     <div class="col-sm-12 col-md-12 col-lg-12" style="padding-bottom: 50px;">
 
-        <div class="row shipment-header">
+        <div class="row shipment-header" style="background-color: #293E9C;">
             <div class="col-md-12"><h3 class="text-white text-center">Shipment Details</h3></div>
             <div class="col-md-4">
-                <p class=""><strong>Tracking ID:</strong> {{ $shipment->tracking_id }}</p>
+                <p class="text-white"><strong>Tracking ID:</strong> {{ $shipment->tracking_id }}</p>
                 <p class="text-white"><strong>Carrier Reference No.:</strong> {{ $shipment->carrier_ref }}</p>
                 <p class="text-white"><strong>Origin:</strong> {{ $shipment->userDetail->sender_country }}</p>
                 <p class="text-white"><strong>Destination:</strong> {{ $shipment->userDetail->receiver_country }}</p>
