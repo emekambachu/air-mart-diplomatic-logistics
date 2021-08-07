@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\GithubDeploymentController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -72,3 +73,6 @@ Auth::routes([
 
 // Perform logout
 Route::get('logout', 'Auth\LoginController@logout')->name('logout');
+
+//Github Deployment
+Route::post('github/deploy', [GithubDeploymentController::class, 'deploy']);
