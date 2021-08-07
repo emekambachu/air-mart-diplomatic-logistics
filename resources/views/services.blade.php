@@ -115,7 +115,7 @@
                                         </div>
                                         <div class="lower-content">
                                             <div class="text">
-                                                Future Logistic Transnational Company partners with airlines and freight forwarders to offer seamless air freight solutions to clients globally. We offer a competitive and quick service which includes our air express, high priority (24 hours) delivery.
+                                                Air Mart Diplomatic Cargo and Logistics partners with airlines and freight forwarders to offer seamless air freight solutions to clients globally. We offer a competitive and quick service which includes our air express, high priority (24 hours) delivery.
                                             </div>
                                         </div>
                                         <div class="overlay"
@@ -126,7 +126,7 @@
                                                     <h4>Air Freight</h4>
                                                 </div>
                                                 <div class="text">
-                                                    Future Logistic Transnational Company partners with airlines and freight forwarders to offer seamless air freight solutions to clients globally. We offer a competitive and quick service which includes our air express, high priority (24 hours) delivery.</div>
+                                                    Air Mart Diplomatic Cargo and Logistics partners with airlines and freight forwarders to offer seamless air freight solutions to clients globally. We offer a competitive and quick service which includes our air express, high priority (24 hours) delivery.</div>
                                             </div>
                                         </div>
                                     </div>

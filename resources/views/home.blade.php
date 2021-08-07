@@ -206,7 +206,7 @@ Home
                     <div class="inner-box wow fadeInUp" data-wow-duration="1500ms">
                         <h4>Air Freight</h4>
                         <div class="text">
-                            <p>Future Logistic Transnational Company partners with airlines and freight forwarders to offer seamless air freight solutions to clients globally. We offer a competitive and quick service which includes our air express, high priority (24 hours) delivery.</p>
+                            <p>Air Mart Diplomatic Cargo and Logistics partners with airlines and freight forwarders to offer seamless air freight solutions to clients globally. We offer a competitive and quick service which includes our air express, high priority (24 hours) delivery.</p>
                         </div>
                         <div class="count"><span>01</span></div>
                         <div class="image" data-parallax='{"y": 30}'>
@@ -248,7 +248,7 @@ Home
                         <div class="sub-title">Company</div>
                         <h2>About<br> Us</h2>
                         <div class="text">
-                            Air Mart Diplomatic Cargo and Logistics is the logistics and transportation hub of the Southeast and your direct access to the world. With an extensive line-up of distribution and warehousing facilities, world-class supply chain infrastructure, and the nation’s fastest-growing port, Future Logistic Transnational Company is ready to move your product efficiently and seamlessly.
+                            Air Mart Diplomatic Cargo and Logistics is the logistics and transportation hub of the Southeast and your direct access to the world. With an extensive line-up of distribution and warehousing facilities, world-class supply chain infrastructure, and the nation’s fastest-growing port, Air Mart Diplomatic Cargo and Logistics is ready to move your product efficiently and seamlessly.
                         </div>
                         <a href="{{ url('about') }}" class="readmore-link">
                             <i class="flaticon-up-arrow"></i>More Details</a>
@@ -312,7 +312,7 @@ Home
                         <div class="content">
                             <h4>Connected</h4>
                             <div class="text">
-                                Future Logistic Transnational Company Port offers the fastest customs clearance of any country in the GCC.
+                                Air Mart Diplomatic Cargo and Logistics Port offers the fastest customs clearance of any country in the GCC.
                             </div>
                         </div>
                     </div>

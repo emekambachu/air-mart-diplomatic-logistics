@@ -62,7 +62,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="text">
-                                <p>If your 3PL or distribution center is seeking to grow, Future Logistic Transnational Company is the place to be. When you choose Future Logistic Transnational Company, you are choosing a solid foundation of air, land and sea transportation that will enhance your business growth and keep you competitive in the global marketplace.</p>
+                                <p>If your 3PL or distribution center is seeking to grow, Air Mart Diplomatic Cargo and Logistics is the place to be. When you choose Air Mart Diplomatic Cargo and Logistics, you are choosing a solid foundation of air, land and sea transportation that will enhance your business growth and keep you competitive in the global marketplace.</p>
                             </div>
                             <div class="author-info wow fadeInUp animated" data-wow-duration="1500ms"
                                  style="visibility: visible; animation-duration: 1500ms; animation-name: fadeInUp;">
@@ -172,7 +172,7 @@
                                         <div class="sub-title">Statements</div>
                                         <h2>Mission Statement</h2>
                                     </div>
-                                    <div class="text">Our goal is not to be in all locations, but the right locations to serve the global needs of our customers and partners. Future Logistic Transnational Company was formed to ‘fill a gap’ in the SE Asia market (ASEAN) as well as locate in all key global trading lanes.</div>
+                                    <div class="text">Our goal is not to be in all locations, but the right locations to serve the global needs of our customers and partners. Air Mart Diplomatic Cargo and Logistics was formed to ‘fill a gap’ in the SE Asia market (ASEAN) as well as locate in all key global trading lanes.</div>
                                 </div>
                             </div>
                             <div class="tab-pane fadeInUp animated" id="tab-two" role="tabpanel" aria-labelledby="tab-two">
