@@ -205,6 +205,14 @@
                                                 <a href="mailto:info@airmartlogistics.com">info@airmartlogistics.com</a>
                                             </div>
                                         </div>
+                                        <div class="icon-box">
+                                            <div class="icon"><span class="flaticon-logistics"></span></div>
+                                            <div class="text">
+                                                <strong>Address</strong>
+                                                <p>Head Office:Molla Gurani Cadesi, Emin Ali Yasin Sk. No:6. Findikzade, Istanbul Turkey</p>
+                                                <p>Branch office: Unit 19, Mitre Bridge Industrial Park, London, W10 London,United Kingdom</p>
+                                            </div>
+                                        </div>
                                         <ul class="social-icon">
                                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
