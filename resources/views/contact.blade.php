@@ -29,51 +29,22 @@
 
     <section class="contact-info-section-two">
         <div class="auto-container">
-            <div class="nav-tabs-wrapper">
-                <div class="nav nav-tabs tab-btn-style-two">
-                    <div class="theme_carousel owl-theme owl-carousel owl-loaded owl-drag" data-options="{&quot;loop&quot;: false, &quot;margin&quot;: 0, &quot;autoheight&quot;:true, &quot;lazyload&quot;:true, &quot;nav&quot;: true, &quot;dots&quot;: true, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 6000, &quot;smartSpeed&quot;: 1000, &quot;responsive&quot;:{ &quot;0&quot; :{ &quot;items&quot;: &quot;1&quot; }, &quot;600&quot; :{ &quot;items&quot; : &quot;1&quot; }, &quot;768&quot; :{ &quot;items&quot; : &quot;2&quot; } , &quot;992&quot;:{ &quot;items&quot; : &quot;2&quot; }, &quot;1200&quot;:{ &quot;items&quot; : &quot;3&quot; }}}">
-
-                        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-570px, 0px, 0px); transition: all 1s ease 0s; width: 1140px;"><div class="owl-item" style="width: 190px;"><ul class="item">
-                                        <li><a class="active" data-toggle="tab" href="#tab-one">
-                                                <h4>Hoxton - HO</h4>
-                                            </a></li>
-                                    </ul></div><div class="owl-item" style="width: 190px;"><ul class="item">
-                                        <li><a data-toggle="tab" href="#tab-two">
-                                                <h4>Melbourne</h4>
-                                            </a></li>
-                                    </ul></div><div class="owl-item" style="width: 190px;"><ul class="item">
-                                        <li><a data-toggle="tab" href="#tab-three">
-                                                <h4>Houston</h4>
-                                            </a></li>
-                                    </ul></div><div class="owl-item active" style="width: 190px;"><ul class="item">
-                                        <li><a class="active" data-toggle="tab" href="#tab-four">
-                                                <h4>Hoxton - HO</h4>
-                                            </a></li>
-                                    </ul></div><div class="owl-item active" style="width: 190px;"><ul class="item">
-                                        <li><a data-toggle="tab" href="#tab-five">
-                                                <h4>Melbourne</h4>
-                                            </a></li>
-                                    </ul></div><div class="owl-item active" style="width: 190px;"><ul class="item">
-                                        <li><a data-toggle="tab" href="#tab-six">
-                                                <h4>Houston</h4>
-                                            </a></li>
-                                    </ul></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next disabled"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button></div></div>
-                </div>
-            </div>
 
             <div class="tab-content">
                 <div class="tab-pane fadeInUp animated" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="outer-box">
-                                <h4><span class="flaticon-cursor"></span>Boat House, 152/21 City Road, <br> Hoxton, N1 6NG, UK.</h4>
+                                <h4><span class="flaticon-cursor"></span>
+                                    Boat House, 152/21 City Road, <br> Hoxton, N1 6NG, UK.</h4>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="wrapper-box">
                                             <div class="icon-box">
                                                 <div class="icon"><span class="flaticon-calling"></span></div>
                                                 <div class="text-area">
-                                                    <div class="text"><strong>Phone</strong><a href="tel:(+61)3245689790">(+61)32456789</a></div>
+                                                    <div class="text"><strong>Phone</strong><a href="tel:+447418347778">
+                                                            +447418347778</a></div>
                                                 </div>
                                             </div>
                                             <div class="icon-box">
@@ -102,9 +73,6 @@
                                 <h2>Start Your Shipping</h2>
                             </div>
                             <div class="text">Indignation and dislike men who are so beguiled &amp; demoralized by <br> the charms of pleasure of the moment.</div>
-                            <div class="link">
-                                <a href="#" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>Get A Quote</span></a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -112,33 +80,42 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="outer-box">
-                                <h5 class="text-white mb-2"><span class="flaticon-cursor"></span>
-                                    Head Office: Molla Gurani Cadesi, Emin Ali Yasin Sk. No:6. Findikzade, Istanbul Turkey<br><br>
-                                    Branch office: Unit 19, Mitre Bridge Industrial Park, London, W10 London,United Kingdom
-                                </h5>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="wrapper-box">
                                             <div class="icon-box">
                                                 <div class="icon"><span class="flaticon-calling"></span></div>
                                                 <div class="text-area">
-                                                    <div class="text"><strong>Phone</strong><a href="tel:(+61)3245689790">(+61)32456789</a></div>
+                                                    <div class="text"><strong>Phone</strong>
+                                                        <a href="tel:+447418347778">+447418347778</a>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="icon-box">
                                                 <div class="icon"><span class="flaticon-mail"></span></div>
                                                 <div class="text-area">
-                                                    <div class="text"><strong>Email</strong><a href="tel:(+61)32456789790">info@airmartlogistics.com</a></div>
+                                                    <div class="text"><strong>Email</strong>
+                                                        <a href="mailto:info@airmartlogistics.com">
+                                                            info@airmartlogistics.com</a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="icon-box">
-                                            <div class="icon"><span class="flaticon-mail"></span></div>
+                                            <div class="icon">
+                                                <span class="flaticon-mail"></span>
+                                            </div>
                                             <div class="text-area">
-                                                <div class="text"><strong>Mon - Friday</strong>08.00 am to 9.00pm</div>
-                                                <div class="text"><strong>Saturday</strong>10.00 am to 4.00pm</div>
+                                                <div class="text">
+                                                    <strong>Head office: </strong>
+                                                    Molla Gurani Cadesi, Emin Ali Yasin Sk. No:6. Findikzade, Istanbul Turkey
+                                                </div>
+                                                <div class="text">
+                                                    <strong>Branch offics:</strong>
+                                                    Unit 19, Mitre Bridge Industrial Park, London, W10 London,United Kingdom
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -151,9 +128,6 @@
                                 <h2>Start Your Shipping</h2>
                             </div>
                             <div class="text">Indignation and dislike men who are so beguiled &amp; demoralized by <br> the charms of pleasure of the moment.</div>
-                            <div class="link">
-                                <a href="#" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>Get A Quote</span></a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -161,11 +135,8 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="outer-box">
-                                <h5 class="text-white mb-2"><span class="flaticon-cursor"></span>
-                                    Head Office: Molla Gurani Cadesi, Emin Ali Yasin Sk. No:6. Findikzade, Istanbul Turkey<br><br>
-                                    Branch office: Unit 19, Mitre Bridge Industrial Park, London, W10 London,United Kingdom
-                                </h5>
                                 <div class="row">
+
                                     <div class="col-md-6">
                                         <div class="wrapper-box">
                                             <div class="icon-box">
@@ -182,6 +153,7 @@
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="col-md-6">
                                         <div class="icon-box">
                                             <div class="icon"><span class="flaticon-mail"></span></div>
@@ -191,6 +163,23 @@
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div class="col-md-6">
+                                        <div class="icon-box">
+                                            <div class="icon"><span class="flaticon-mail"></span></div>
+                                            <div class="text-area">
+                                                <div class="text">
+                                                    <strong>Head office: </strong>
+                                                    Molla Gurani Cadesi, Emin Ali Yasin Sk. No:6. Findikzade, Istanbul Turkey
+                                                </div>
+                                                <div class="text">
+                                                    <strong>Branch offics:</strong>
+                                                    Unit 19, Mitre Bridge Industrial Park, London, W10 London,United Kingdom
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -200,9 +189,6 @@
                                 <h2>Start Your Shipping</h2>
                             </div>
                             <div class="text">Indignation and dislike men who are so beguiled &amp; demoralized by <br> the charms of pleasure of the moment.</div>
-                            <div class="link">
-                                <a href="#" class="theme-btn btn-style-one"><span><i class="flaticon-up-arrow"></i>Get A Quote</span></a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -210,23 +196,23 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="outer-box">
-                                <h5 class="text-white mb-2"><span class="flaticon-cursor"></span>
-                                    Head Office: Molla Gurani Cadesi, Emin Ali Yasin Sk. No:6. Findikzade, Istanbul Turkey<br><br>
-                                    Branch office: Unit 19, Mitre Bridge Industrial Park, London, W10 London,United Kingdom
-                                </h5>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="wrapper-box">
                                             <div class="icon-box">
                                                 <div class="icon"><span class="flaticon-calling"></span></div>
                                                 <div class="text-area">
-                                                    <div class="text"><strong>Phone</strong><a href="tel:(+61)3245689790">(+61)32456789</a></div>
+                                                    <div class="text"><strong>Phone</strong>
+                                                        <a href="tel:+447418347778">+447418347778</a>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="icon-box">
                                                 <div class="icon"><span class="flaticon-mail"></span></div>
                                                 <div class="text-area">
-                                                    <div class="text"><strong>Email</strong><a href="tel:(+61)32456789790">info@airmartlogistics.com</a></div>
+                                                    <div class="text"><strong>Email</strong>
+                                                        <a href="mailto:info@airmartlogistics.com">
+                                                            info@airmartlogistics.com</a></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -235,8 +221,14 @@
                                         <div class="icon-box">
                                             <div class="icon"><span class="flaticon-mail"></span></div>
                                             <div class="text-area">
-                                                <div class="text"><strong>Mon - Friday</strong>08.00 am to 9.00pm</div>
-                                                <div class="text"><strong>Saturday</strong>10.00 am to 4.00pm</div>
+                                                <div class="text">
+                                                    <strong>Head office: </strong>
+                                                    Molla Gurani Cadesi, Emin Ali Yasin Sk. No:6. Findikzade, Istanbul Turkey
+                                                </div>
+                                                <div class="text">
+                                                    <strong>Branch offics:</strong>
+                                                    Unit 19, Mitre Bridge Industrial Park, London, W10 London,United Kingdom
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

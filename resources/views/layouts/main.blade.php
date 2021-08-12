@@ -70,7 +70,7 @@
                             </form>
                         </div>
                         <div class="phone-number"><i class="flaticon-calling"></i>
-                            <a href="tel:(+61)32456789"></a>(+61) 324 56 789</div>
+                            <a href="tel:+447418347778"></a>+447418347778</div>
                     </div>
                 </div>
             </div>
@@ -195,7 +195,7 @@
                                             <div class="icon"><span class="flaticon-calling"></span></div>
                                             <div class="text">
                                                 <strong>Phone</strong>
-                                                <a href="tel:(+61)3245689790">(+61)32456789</a>
+                                                <a href="tel:+447418347778">+447418347778</a>
                                             </div>
                                         </div>
                                         <div class="icon-box">
